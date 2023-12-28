@@ -1,0 +1,80 @@
+@font-face {
+    font-family: gunplay;
+    src: url("../fonts/gunplay.regular.otf") format("opentype");
+}
+html, body {
+    font-family: gunplay;
+    color: #CCCCCC;
+    margin: 0;
+    padding: 0;
+    background-color: #171412;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+hr {
+    margin: 0;
+    width: 100%;
+}
+a:link {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+a:visited {
+    color: #CCCCCC;
+}
+a:hover, a:active {
+    color: #CB935D;
+}
+#container {
+    border-style: solid;
+    border-color: #273321;
+    padding: 0 100px;
+    background-color: #1E2413;
+    display: flex;
+    flex-direction: column;
+}
+#nameContainer {
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#ammo {
+    font-size: 30px;
+}
+#ammoHex {
+    font-size: 20px;
+    color: #748A4A;
+    align-self: center;
+}
+#linksContainer {
+    border-style: dashed;
+    border-color: #C0B48C;
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #343D21;
+    padding: 30px 90px 30px 80px;
+    margin-bottom: 50px;
+}
+#links {
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#hex {
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    color: #CB935D;
+}
