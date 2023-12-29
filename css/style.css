@@ -78,3 +78,101 @@ a:hover, a:active {
     margin-bottom: 20px;
     color: #CB935D;
 }
+@media only screen and (max-width: 400px) {
+    #container {
+        padding: 0 20px;
+    }
+    #nameContainer {
+        margin-top: 20px;
+    }
+    #linksContainer {
+        gap: 0;
+        padding: 30px 90px 30px 80px;
+    }
+    #linksContainer svg:first-of-type {
+        position: absolute;
+        opacity: 0.3;
+    }
+    #links {
+        z-index: 2;
+    }
+    #links a {
+        padding: 10px;
+        border-style: solid;
+        border-color: #273321;
+        background-color: #1E2413;
+    }
+}
+@media only screen and (min-width: 400px) {
+    #container {
+        padding: 0 60px;
+    }
+    #nameContainer {
+        margin-top: 20px;
+    }
+    #linksContainer {
+        gap: 0;
+        padding: 30px 90px 30px 80px;
+    }
+    #linksContainer svg:first-of-type {
+        position: absolute;
+        opacity: 0.3;
+    }
+    #links {
+        z-index: 2;
+    }
+    #links a {
+        padding: 10px;
+        border-style: solid;
+        border-color: #273321;
+        background-color: #1E2413;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #container {
+        padding: 0 60px;
+    }
+    #nameContainer {
+        margin-top: 30px;
+    }
+    #linksContainer {
+        gap: 40px;
+        padding: 30px 60px 30px 50px;
+    }
+    #linksContainer svg:first-of-type {
+        position: relative;
+        opacity: 1;
+    }
+    #links {
+        z-index: 1;
+    }
+    #links a {
+        padding: 0;
+        border-style: none;
+        background-color: transparent;
+    }
+}
+@media only screen and (min-width: 750px) {
+    #container {
+        padding: 0 100px;
+    }
+    #nameContainer {
+        margin-top: 30px;
+    }
+    #linksContainer {
+        gap: 80px;
+        padding: 30px 90px 30px 80px;
+    }
+    #linksContainer svg:first-of-type {
+        position: relative;
+        opacity: 1;
+    }
+    #links {
+        z-index: 1;
+    }
+    #links a {
+        padding: 0;
+        border-style: none;
+        background-color: transparent;
+    }
+} 
