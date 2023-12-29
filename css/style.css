@@ -1,6 +1,6 @@
 @font-face {
     font-family: gunplay;
-    src: url("../fonts/gunplay.regular.otf") format("opentype");
+    src: url("../fonts/gunplay.regular.woff2") format("woff2");
 }
 html, body {
     font-family: gunplay;
@@ -48,7 +48,7 @@ a:hover, a:active {
 }
 #ammoHex {
     font-size: 20px;
-    color: #748A4A;
+    color: #9AB573;
     align-self: center;
 }
 #linksContainer {
